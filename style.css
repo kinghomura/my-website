@@ -2,6 +2,7 @@
 h1{
   /* background-color: orange; */
   /* display: inline; */
+  border-left:5px solid silver;
   padding: 10px;
   color: black;
 }
@@ -67,16 +68,36 @@ li{
   /* margin-right: auto; */
 }
 .box{
-  width: 500px;
-  height: 500px;
+  /* background-color: #cff;
+  box-shadow: 10px 5px rgba(210, 255, 255, 0.5); */
+  background-color: silver;
+  box-shadow: 10px 5px rgba(229, 229, 229, 0.5);
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+
+  text-align: center;
+  line-height: 200px;
+  font-size: 30px;
+
+
 }
 .box1{
-  background-color: orange;
   position: relative;
   left: 200px;
   top:  200px;
   /* padding: 200px; */
   /* height: 200px; */
+
   }
-.box2{background-color: pink;}
-.box3{background-color: black;}
+.box2{
+  position: relative;
+  left: 700px;
+  top:  400px;
+
+}
+.box3{
+  position: relative;
+  left: 200px;
+  top:  600px;
+}
