@@ -1,0 +1,82 @@
+@charset "utf-8";
+h1{
+  /* background-color: orange; */
+  /* display: inline; */
+  padding: 10px;
+  color: black;
+}
+
+body{
+  font-family: Verdana, 'Arial Black', メイリオ, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* .pages{
+  background-color: yellow;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+} */
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+  font-weight: bold;
+}
+li{
+  /* background: #CCC; */
+  width: 80px;
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+.menu{
+  width: 560;
+  /* position: fixed; */
+  margin: auto;
+  overflow: hidden;
+}
+.menu li{
+  float: left;
+}
+
+.icons{
+  width: 300;
+  margin-left: auto;
+  overflow: hidden;
+}
+.icons li{
+  float: left;
+}
+
+
+.title{
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
+  margin-top: 200px;
+  background-color: #CCC;
+  text-align: center;
+
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+.box{
+  width: 500px;
+  height: 500px;
+}
+.box1{
+  background-color: orange;
+  position: relative;
+  left: 200px;
+  top:  200px;
+  /* padding: 200px; */
+  /* height: 200px; */
+  }
+.box2{background-color: pink;}
+.box3{background-color: black;}
